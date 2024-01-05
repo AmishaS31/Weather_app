@@ -1,12 +1,14 @@
 
 import './App.css'
+import Weatherapp from './components/weatherapp/weatherapp';
 
 function App() {
  
   return (
-   
-      <div>
-        <weatherapp/>
+     <div>
+
+        <Weatherapp />
+        
       </div>
       
   );
