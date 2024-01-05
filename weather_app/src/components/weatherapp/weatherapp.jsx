@@ -12,11 +12,22 @@ import humidity_icon from "../Assets/humidity.png"
 
 
 const Weatherapp = () => {
+
+let api_key="c556eb4d62f3a774eb18ef7891ea8e45";
+
+const search = () => {
+    const element=document.getElementsByClassName("cityInput");
+    if(element[0].value==="")
+    {
+      return 0;
+    }
+}
+
   return (
     <div class='container'>
       <div className="top-bar">
         <input type='text' className='cityInput' placeholder='Search'></input>
-        <div className='search-icon'>
+        <div className='search-icon' onClick={()=>{search()}}>
             <img src={search_icon} alt=""/>
         </div>
       </div>
