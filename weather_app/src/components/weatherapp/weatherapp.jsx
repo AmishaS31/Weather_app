@@ -73,7 +73,7 @@ const search = async () => {
 }
 
   return (
-    <div class='container'>
+    <div className='container'>
       <div className="top-bar">
         <input type='text' className='cityInput' placeholder='Search'></input>
         <div className='search-icon' onClick={()=>{search()}}>
