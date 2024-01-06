@@ -1,8 +1,8 @@
 .container{
-    width: 607px;
-    height: 829px;
+    width: 500px;
+    height: 600px;
     margin: auto;
-    margin-top: 75px;
+    margin-bottom: 250px;
     border-radius: 12px;
     background-image: linear-gradient(180ded, #130754 0%, #3b2f80 100%);
 }
